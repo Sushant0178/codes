@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant Kokate - Resume</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .left-column {
+            width: 30%;
+            padding-right: 20px;
+            border-right: 2px solid #eee;
+            text-align: center; /* Aligning content to center */
+        }
+
+        .right-column {
+            width: 70%;
+            padding-left: 20px;
+        }
+
+        h1, h2 {
+            color: #0066cc;
+            margin-bottom: 8px;
+        }
+
+        h3 {
+            color: #ff6600;
+            margin-bottom: 8px;
+        }
+
+        section {
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .skills p {
+            padding: 3px 0;
+            color: #333;
+        }
+
+        .projects-item {
+            margin-bottom: 10px;
+        }
+
+        .experience-item ul {
+            margin: 5px 0;
+        }
+
+        .contact-info, .education, .personal-info {
+            margin-bottom: 12px;
+        }
+
+        /* Profile Image Styles */
+        .contact-info img {
+            width: 150px;  /* Increased size */
+            height: 150px; /* Make it square */
+            margin-bottom: 20px;
+            object-fit: cover; /* Ensures the image maintains its aspect ratio */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .left-column, .right-column {
+                width: 100%;
+                padding: 10px;
+                border-right: none;
+                border-bottom: 2px solid #eee;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .section-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column: Contact, Skills, Education, Personal Info -->
+        <div class="left-column">
+            <section class="contact-info">
+                <!-- Profile Image -->
+                <img src="im.png" alt="Profile Picture">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> sushantkokate@gmail.com</p>
+                <p><strong>Phone:</strong> 9763280178</p>
+            </section>
+
+            <section class="skills">
+                <h3 class="section-title"><strong>Skills</strong></h3>
+                <p><strong>Programming Languages:</strong> Python, JavaScript</p>
+                <p><strong>Web Frameworks:</strong> Django, Flask</p>
+                <p><strong>Front-End:</strong> HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind CSS</p>
+                <p><strong>Back-End:</strong> REST APIs, Django REST Framework, Flask-RESTful</p>
+                <p><strong>Database:</strong> PostgreSQL, MySQL, MongoDB</p>
+                <p><strong>Libraries/Tools:</strong> Speech Recognition, NLP, pyttsx3, Wikipedia API, pyjokes, smtplib, keyboard, Web Scraping, Command Prompt Automation, Celery, Redis</p>
+                <p><strong>Deployment & Cloud:</strong> Docker, AWS, Heroku, Nginx</p>
+                <p><strong>Other:</strong> Git, Web Browser Automation, Email Automation, System Operations (Shutdown, Restart), Audio File Management, Pytest</p>
+            </section>
+            
+
+            <section class="education">
+                <h3 class="section-title">Education</h3>
+                <p><strong>Pune University</strong>, 2022</p>
+                <p><strong>B.E. in Information Technology</strong></p>
+            </section>
+
+            <section class="personal-info">
+                <h3 class="section-title">Personal Information</h3>
+                <p><strong>Name:</strong> Kushant Kokate</p>
+                <p><strong>Date of Birth:</strong> 12th February 2002</p>
+                <p><strong>Gender:</strong> Male</p>
+                <p><strong>Address:</strong> Karvenagar, Pune</p>
+                <p><strong>Nationality:</strong> Indian</p>
+            </section>
+        </div>
+
+        <!-- Right Column: Profile, Summary, Experience, Projects -->
+        <div class="right-column">
+            <header>
+                <h1>Sushant Kokate</h1>
+            </header>
+
+            <section>
+                <h2 class="section-title">Summary</h2>
+                <p>Recent Information Technology graduate with hands-on experience in Python and Django. Developed projects like a Text-to-Speech Converter, Unused Medicine Donation System, and Chatbot for PC Automation. Proven leadership as CEO and Director of Infosit Club, managing events and teams. Eager to apply skills in software development and project management for a Junior Python Developer role.</p>
+            </section>
+
+            <section class="experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <h4>CEO - Infosit Club (Departmental Club)</h4>
+                    <p><strong>May 2021 - May 2022</strong></p>
+                    <ul>
+                        <li>Led student initiatives, organized events, and built teams for projects.</li>
+                        <li>Enhanced collaboration within the club and led university projects.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h4>Director - Infosit Club (Departmental Club)</h4>
+                    <p><strong>May 2022 - May 2023</strong></p>
+                    <ul>
+                        <li>Managed club activities, coordinated events, and improved team dynamics.</li>
+                        <li>Designed and implemented projects to increase student engagement.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="languages">
+                <h3 class="section-title">Languages</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Marathi</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h3 class="section-title">Projects</h3>
+                <div class="projects-item">
+                    <h4>Text-to-Speech Converter</h4>
+                    <p><strong>Technology:</strong> Python (Pyttsx3)</p>
+                    <p>Developed a Python application to convert text to speech, enhancing accessibility for text-based content.</p>
+                </div>
+                <div class="projects-item">
+                    <h4>Chatbot for PC Automation</h4>
+                    <p><strong>Technology:</strong> Python, Speech Recognition, NLP, pyttsx3, Wikipedia API, Web Automation, Email Automation</p>
+                    <p>Built a desktop chatbot to automate PC tasks via voice commands, including web browsing, email management, and system operations (shutdown/restart). Integrated with Wikipedia, pyttsx3, and other tools for enhanced productivity.</p>
+                </div>
+                
+                <div class="projects-item">
+                    <h4>Unused Medicine Donation System</h4>
+                    <p><strong>Technology:</strong> Technologies: Python, Django, REST APIs, React.js, Git, Docker,SQLlite.</p>
+                    <p>Created a full-stack Python web application using Django to collect and redistribute unused medicines, increasing community access to healthcare resources and reducing medical waste.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
